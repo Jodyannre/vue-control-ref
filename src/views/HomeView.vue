@@ -1,12 +1,12 @@
 <template>
     <h1>Home View</h1>
-    <LazyLoad/>
+    <LazyComponent/>
     <ParentComponent/>
 </template>
   
 <script lang="ts" setup>
   import ParentComponent from '@/components/ParentComponent.vue';
-  import LazyLoad from './LazyLoad.vue';
+  import LazyComponent from '@/components/LazyComponent.vue';
 </script>
   
 <style scoped>
